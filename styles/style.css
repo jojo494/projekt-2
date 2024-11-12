@@ -1,0 +1,33 @@
+body {
+        background-color: beige;
+        color: rgb(34, 28, 28);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        /* dette er en kommentar i CSS */
+        gap: 20 px
+    }
+
+    #container {
+        background-color: brown;
+        width:200px;
+    }
+
+
+    .paragraphstyle {
+        background-color: blue;
+    }
+
+    .buttons {
+        color: blue;
+        background-color: blue;
+        border: 3px dotted black;
+        cursor:pointer;
+    }
+    .list{
+        position: fixed;
+        width: 200 px;
+        top:20 px;
+        right: 20px;
+    }
